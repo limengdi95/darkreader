@@ -1,5 +1,5 @@
 module.exports.rules = {
-    'jsx-uses-m-pragma': {
+    'jsx-uses-m-Fpragma': {
         create(context) {
             const pragma = 'm';
             const usePragma = () => context.markVariableAsUsed(pragma);
